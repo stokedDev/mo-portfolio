@@ -347,6 +347,14 @@ h4{
   max-width: 450px;
   padding: 1em;
 }
+.email-copy-btn{
+  padding: 1rem 3rem;
+  font-size: 2.16rem;
+  border: none;
+  border-radius: 1rem;
+  background-color: rgba(0, 157, 255,.5);
+  color: white;
+}
 .email{
   font-size: 3rem;
   font-weight: 600;
@@ -365,6 +373,7 @@ h4{
   width: 150px;
 }
 */
+/*
 .facebook{
   width: 135px;
   height: 120px;
@@ -374,6 +383,7 @@ h4{
   justify-content: center;
   align-items: center;
 }
+*/
 .edabit{
   width: 150px;
   height: 150px;
@@ -520,11 +530,31 @@ footer{
 }
 
 @media (min-width: 1024px){
+  .email-copy-btn:hover{
+    animation-name: hover-email-copy-btn;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .email-copy-btn-unhover{
+    animation-name: hover-email-copy-btn; 
+    animation-duration: 1s;
+    animation-direction: reverse;
+  }
   .nav-link:hover{
     background-color: rgba(0, 0, 0, 0.541);
     color: white;
   }
   .last-welcome-h4:hover{
     background-color: rgba(0, 0, 0, .5);
+  }
+}
+@keyframes hover-and-unhover-email-copy-btn{
+  0%{
+    background-color: rgba(0, 157, 255,.5);
+    color: white;
+  }
+  100%{
+      background-color: rgba(0, 255, 26, 0.827);
+      color: black;
   }
 }

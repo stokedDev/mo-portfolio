@@ -142,3 +142,42 @@ function activateBtn(btn, sectionIntro, slidePosition){
     activateBtn(contactBtn, sI3, 2);
 
     document.querySelector('.ftr-nav-link').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+/* text copy for now but add contact form with my own human-verification test generator
+   human-verification test generator could have random visuals with matching test questions for human about them
+*/
+
+
+    /* Contact Page Email Copy JS Below */
+    
+    const copyEmailBtn = document.querySelector('.email-copy-btn');
+    const myEmail = document.querySelector(".email");
+    /*
+    myEmail.addEventListener("click"/* ''? *//*, () => {
+        navigator.clipboard.writeText("<empty clipboard>").then(
+        () => {
+          // clipboard successfully set
+        },
+        () => {
+          // clipboard write failed
+        }
+      );})
+      */
+     copyEmailBtn.addEventListener("mouseleave", ()=>{
+            /* remove unhover class if el hovered */
+            copyEmailBtn.classList.add("email-copy-btn-unhover");
+            /*
+            setTimeout(()=>{
+                copyEmailBtn.classList.remove("email-copy-btn-unhover");
+            }, 1001);
+        */
+           
+            /* test code
+           const copyEmailBtnBGcolor = copyEmailBtn.style.color === "black"? "yellow": "black";
+            copyEmailBtn.style.backgroundColor = copyEmailBtnBGcolor;
+            */
+           console.log(copyEmailBtn.classList.contains("email-copy-btn-unhover")? "has unhover class": "!has unhover class");
+            //console.log('log from copyEmailBtn event listener');
+            
+     });
+     //if(copyEmailBtn.classList.contains("email-copy-btn-unhover")) ;
