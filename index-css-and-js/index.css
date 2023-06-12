@@ -183,10 +183,12 @@ body{
 }
 
 /* NAVBAR CSS ENDS HERE */
+
+/* Welcome CSS begins Here */
 .welcome-section{
   margin-bottom: 2rem;
   text-align: center;
-  font-size: 2.5rem;
+  font-size: 10px;
   letter-spacing: .05em;
   color: rgb(252, 220, 39);
   background: none;
@@ -202,7 +204,7 @@ p{
   font-size: 2.4rem;
 }
 h1{
-  font-size: 4rem;
+  font-size: 4em;
   margin-bottom: 0;
 }
 
@@ -217,22 +219,92 @@ h1{
 .intro-part-1{
   margin-top: 0;
 }
+.my-name-is{
+  font-size: 4em;
+}
+
 .last-intro-part-0,
 .last-intro-part-1{
-  font-size: 2rem;
+  font-size: 2em;
 }
 h2{
   font-size: 2.1rem;
   text-align: center;
 }
 .accent-text{
-  font-size: 3rem;
+  font-size: 3em;
   font-weight: 600;
+}
+.welcome{
+  font-size: 6.3em;
+  text-align: center;
+}
+.i-am-maurice{
+  font-size: 4.4em;
+}
+.hireable{
+  display: block;
+  font-size: 6em;
+}
+.as-your{
+  display: block;
+  font-size: 3.5em;
+  letter-spacing: 0.1em;
+}
+.problem-solver{
+  font-weight: 900;
+  font-size: 3.7em;
+}
+.welcome-section-and{
+  font-size: 3em;
+  display: block;
+}
+.software-engineer{
+  font-weight: 900;
+  font-size: 3.1em;
+}
+.specializing-in{
+  font-size: 2.7em;
+}
+.the-webs-frontend{
+  font-size: 3.1em;
+}
+.ill-code-fullstack-too{
+  font-size: 2.80em;
+  font-weight: 600;
+}
+.enjoy-browsing-here{
+  font-size: 2.80em;
+  font-weight: 900;
+}
+.my-name-is,
+.welcome,
+.i-am-maurice,
+.hireable,
+.as-your,
+.problem-solver,
+.welcome-section-and,
+.software-engineer,
+.specializing-in,
+.the-webs-frontend,
+.ill-code-fullstack-too,
+.enjoy-browsing-here,
+.lets-connect,
+.welcome-closing-thank-you{
+  display: block;
+}
+.lets-connect{
+  font-weight: 900;
+  font-size: 4.2em;
+}
+.welcome-closing-thank-you{
+  font-weight: 600;
+  font-size: 5.5em;
 }
 .accent-text-lighter-block{
   display: block;
   font-weight: 600;
-  font-size: 2.4rem;
+  font-size: 2.4em;
   letter-spacing: 2px;
 }
 .last-accent-text{
@@ -241,24 +313,30 @@ h2{
 }
 .pro-role{
   margin: 7px 0;
-  font-size: 1.74rem;
+  font-size: 1.74em;
   display: block;
   letter-spacing: .1em;
   display: block;
 }
-.pro-role-conjunction{
+
+.last-welcome-btn{
+  font-family: 'Nunito', sans-serif;
+  font-size: 3.5em;
+  color: rgb(252, 220, 39);
   font-weight: 600;
-}
-.last-welcome-h4{
-  background: rgba(0,0,0,.2);
+  background: rgba(0,0,0,.5);
+  border: none;
   border-radius: .5em;
-  padding: .2em;
+  padding: .5em 1.2em;
   cursor: pointer;
   text-shadow: none;
 }
-.last-welcome-h4:focus{
+.last-welcome-btn:focus{
   background: rgba(0,0,0,.5);
 }
+
+/* projects section CSS */
+
 .projects-title{
   font-size: 3rem;
   letter-spacing: .6rem;
