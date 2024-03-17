@@ -471,6 +471,9 @@ h2{
 .freeCodeCamp-profile-link{
   background-color: rgb(47, 48, 113,.65);
 }
+.instagram-profile-link{
+width: 135px;
+}
 .twitter-img{
   width: 140px;
   margin-top:1px;
