@@ -476,10 +476,14 @@ width: 135px;
 }
 .twitter-img{
   width: 140px;
-  margin-top:1px;
+  margin-top: 1px;
 }
 .youtube-img{
   width: 130px;
+}
+.instagram-img{
+  width: 195px;
+  height: 195px;
 }
 /* contact-section above */
 
