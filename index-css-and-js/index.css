@@ -499,6 +499,12 @@ footer{
   font-size: .99em;
   text-shadow: white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem;
 }
+.Holy-Link, 
+.Holy-Statement,
+.footer-holy-statement-introduction,
+.HolyLink{
+text-shadow: white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem;
+}
 .footer-email{
   color: rgb(166, 221, 244);
 }
