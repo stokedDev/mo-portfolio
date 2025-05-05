@@ -526,6 +526,9 @@ text-shadow: white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, whi
   .profile-links{
     margin-top: -3rem;
   }
+  .ad-space{
+    
+  }
 }
 @media (min-width: 580px){
   body{
