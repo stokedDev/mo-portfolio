@@ -25,6 +25,12 @@ body{
   background-attachment: fixed;
   width: 100vw;
 }
+.ad{
+font-size: 2em;
+background-color: rgba(0,0,0,.5);
+padding: .2em;
+border-radius: 5%;
+}
 /* NAVBAR CSS STARTS HERE */
 
 /* mobile menu css */
