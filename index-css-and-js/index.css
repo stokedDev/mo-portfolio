@@ -264,7 +264,7 @@ h1{
   padding: 0;
 }
 .intro-part-2{
-  font-size: 2.43rem;
+  font-size: 2.8rem;
   font-weight: 900;
 }
 
@@ -488,19 +488,6 @@ footer{
   font-size: 2.1rem;
   margin-top: 2rem;
 }
-.fund-stokeddev{
-  font-size: .99em;
-  text-shadow: white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem;
-}
-.Holy-Link, 
-.Holy-Statement,
-.footer-holy-statement-introduction,
-.HolyLink{
-text-shadow: white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem;
-}
-.footer-email{
-  color: rgb(166, 221, 244);
-}
 .back-to-top-btn{
   margin-left: 0;
   text-align: center;
@@ -525,9 +512,6 @@ text-shadow: white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, white 0 0 2rem, whi
 @media (min-width: 356px){
   .profile-links{
     margin-top: -3rem;
-  }
-  .ad-space{
-    
   }
 }
 @media (min-width: 580px){
